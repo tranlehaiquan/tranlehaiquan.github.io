@@ -11,7 +11,7 @@ type Props = {
   isIndex?: boolean,
 };
 
-const Sidebar = ({ isIndex }: Props) => {
+const Sidebar: React.FC<Props> = ({ isIndex }) => {
   const { author, copyright, menu } = useSiteMetadata();
 
   return (
