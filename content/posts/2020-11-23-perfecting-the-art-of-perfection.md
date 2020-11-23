@@ -1,7 +1,7 @@
 ---
 template: post
-title: Perfecting the Art of Perfection
-slug: perfecting-the-art-of-perfection
+title: Perfecting the Art of Perfection1
+slug: perfecting-the-art-of-perfection-1
 socialImage: /media/image-2.jpg
 draft: false
 date: 2020-11-23T09:46:50.308Z
