@@ -12,13 +12,14 @@ tags:
   - js
   - blog
 ---
-hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world hello the world
+Hello the world!
 
 ```javascript
-function getGreeting(user) {
-  if (user) {
-    return <h1>Hello, {formatName(user)}!</h1>;
-  }
-  return <h1>Hello, Stranger.</h1>;
+const aDay = () => {
+  wakeUp();
+  code();
+  makeCoffee();
+  code();
+  sleep();
 }
 ```
