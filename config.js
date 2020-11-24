@@ -26,14 +26,14 @@ module.exports = {
   ],
   author: {
     name: 'Trần Lê Hải Quân',
-    photo: '/photo.jpg',
+    photo: '/coffee.jpg',
     bio: 'The more you know, the less you know.',
     contacts: {
       email: 'tranlehaiquan@gmail.com',
       facebook: 'https://www.facebook.com/profile.php?id=100005236172852',
       telegram: '',
       twitter: '',
-      github: 'https://github.com/tranlehaiquan',
+      github: 'tranlehaiquan',
       rss: '',
       vkontakte: '',
       linkedin: 'https://www.linkedin.com/in/quan-tran-le-hai-730127126/',
