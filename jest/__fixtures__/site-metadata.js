@@ -3,11 +3,11 @@
 module.exports = {
   site: {
     siteMetadata: {
-      url: 'http://localhost',
+      url: 'https://quantran.dev',
       title: 'Test title',
       subtitle: 'Test subtitle',
       copyright: 'Test copyright',
-      disqusShortname: '',
+      disqusShortname: 'quantran',
       postsPerPage: 4,
       menu: [
         {
