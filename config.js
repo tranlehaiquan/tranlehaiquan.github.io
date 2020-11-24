@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://quantran.dev',
   pathPrefix: '/',
   title: 'Code phê blog',
   subtitle: 'Code phê, coffee blog',
