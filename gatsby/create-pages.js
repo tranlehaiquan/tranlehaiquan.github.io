@@ -5,6 +5,7 @@ const _ = require('lodash');
 const createCategoriesPages = require('./pagination/create-categories-pages.js');
 const createTagsPages = require('./pagination/create-tags-pages.js');
 const createPostsPages = require('./pagination/create-posts-pages.js');
+const createNotesPages = require('./pagination/create-notes.js');
 
 const createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
@@ -62,6 +63,12 @@ const createPages = async ({ graphql, actions }) => {
         component: path.resolve('./src/templates/post-template.js'),
         context: { slug: edge.node.fields.slug }
       });
+    } else if (_.get(edge, 'node.frontmatter.template') === 'note') {
+      createPage({
+        path: edge.node.fields.slug,
+        component: path.resolve('./src/templates/note-template.tsx'),
+        context: { slug: edge.node.fields.slug }
+      });
     }
   });
 
@@ -69,6 +76,7 @@ const createPages = async ({ graphql, actions }) => {
   await createTagsPages(graphql, actions);
   await createCategoriesPages(graphql, actions);
   await createPostsPages(graphql, actions);
+  await createNotesPages(graphql, actions);
 };
 
 module.exports = createPages;

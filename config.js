@@ -25,7 +25,7 @@ module.exports = {
     },
     {
       label: 'Notes',
-      path: '/tag/note'
+      path: '/notes'
     }
   ],
   author: {
