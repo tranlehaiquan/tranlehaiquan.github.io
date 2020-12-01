@@ -2,7 +2,7 @@
 template: note
 title: "Bắt đầu #30DaysProblemSolving"
 slug: 30-days-problem-solving-day-01
-socialImage: /assets/ft_19.02.08_algorithms_feature.jpg
+socialImage: /media/ft_19.02.08_algorithms_feature.jpg
 draft: false
 tags:
   - "#30DaysProblemSolving"
