@@ -48,12 +48,6 @@ Dùng nó để giải toán kiếm điểm 15p, 1 tiếng và người ta hay d
 
 > log(N), N * log(N)...
 
-### Arrays
-
-Nó là gì?
-
-Dùng nó ở đâu?
-
-Khi nào dùng?\
+\
 \
 ![A coffee-break introduction to time complexity of algorithms | victoria.dev](https://victoria.dev/blog/a-coffee-break-introduction-to-time-complexity-of-algorithms/graph.png)
