@@ -46,6 +46,7 @@ collections:
     folder: "content/notes"
     create: true
     slug: "{{slug}}"
+    preview_path: "Notes/{{fields.slug}}"
     fields:
       - {label: "Template", name: "template", widget: "hidden", default: "note"}
       - {label: "Title", name: "title", widget: "string"}
