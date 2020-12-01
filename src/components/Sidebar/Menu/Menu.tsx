@@ -1,13 +1,12 @@
-// @flow strict
 import React from 'react';
 import { Link } from 'gatsby';
 import styles from './Menu.module.scss';
 
 type Props = {
   menu: {
-    label: string;
-    path: string;
-  }[];
+    label: string,
+    path: string
+  }[]
 };
 
 const Menu: React.FC<Props> = ({ menu }) => (
