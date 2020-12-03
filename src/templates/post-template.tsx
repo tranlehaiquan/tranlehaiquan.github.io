@@ -12,7 +12,7 @@ type Props = {
   }
 };
 
-const PostTemplate = ({ data }: Props) => {
+const PostTemplate: React.FC<Props> = ({ data }) => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
   const { frontmatter } = data.markdownRemark;
   const { title: postTitle, description: postDescription, socialImage } = frontmatter;

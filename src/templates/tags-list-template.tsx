@@ -7,7 +7,7 @@ import Sidebar from '../components/Sidebar';
 import Page from '../components/Page';
 import { useSiteMetadata, useTagsList } from '../hooks';
 
-const TagsListTemplate = () => {
+const TagsListTemplate: React.FC = () => {
   const { title, subtitle } = useSiteMetadata();
   const tags = useTagsList();
 

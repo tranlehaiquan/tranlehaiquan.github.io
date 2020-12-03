@@ -14,7 +14,7 @@ type Props = {
   pageContext: PageContext
 };
 
-const TagTemplate = ({ data, pageContext }: Props) => {
+const TagTemplate: React.FC<Props> = ({ data, pageContext }) => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
 
   const {
