@@ -3,7 +3,7 @@ import { getContactHref } from '../../../utils';
 import styles from './Author.module.scss';
 import { useSiteMetadata } from '../../../hooks';
 
-const Author = () => {
+const Author: React.FC = () => {
   const { author } = useSiteMetadata();
 
   return (

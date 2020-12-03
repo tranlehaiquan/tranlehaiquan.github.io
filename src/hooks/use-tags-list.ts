@@ -1,13 +1,15 @@
-// @flow strict
 import { useStaticQuery, graphql } from 'gatsby';
 
-const useTagsList = () => {
+type Tag = {
+  fieldValue: string;
+  totalCount: number;
+};
+
+const useTagsList = (): Tag[] => {
   const { allMarkdownRemark } = useStaticQuery(
     graphql`
       query TagsListQuery {
-        allMarkdownRemark(
-          filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } }
-        ) {
+        allMarkdownRemark(filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } }) {
           group(field: frontmatter___tags) {
             fieldValue
             totalCount

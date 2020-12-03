@@ -11,7 +11,7 @@ type Props = {
   isIndex?: boolean
 };
 
-const Author = ({ author, isIndex }: Props) => (
+const Author: React.FC<Props> = ({ author, isIndex }) => (
   <div className={styles['author']}>
     <Link to="/">
       <img

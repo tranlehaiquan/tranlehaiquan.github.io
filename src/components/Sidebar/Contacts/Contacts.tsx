@@ -7,7 +7,7 @@ type Props = {
   contacts: {[key: string]: string}[],
 };
 
-const Contacts = ({ contacts }: Props) => (
+const Contacts: React.FC<Props> = ({ contacts }) => (
   <div className={styles['contacts']}>
     <ul className={styles['contacts__list']}>
       {Object.keys(contacts).map((name) => (!contacts[name] ? null : (

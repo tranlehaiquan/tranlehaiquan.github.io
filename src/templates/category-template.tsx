@@ -13,7 +13,7 @@ type Props = {
   pageContext: PageContext
 };
 
-const CategoryTemplate = ({ data, pageContext }: Props) => {
+const CategoryTemplate: React.FC<Props> = ({ data, pageContext }) => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
 
   const {

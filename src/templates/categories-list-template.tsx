@@ -6,7 +6,7 @@ import Layout from '../components/Layout';
 import Page from '../components/Page';
 import { useSiteMetadata, useCategoriesList } from '../hooks';
 
-const CategoriesListTemplate = () => {
+const CategoriesListTemplate: React.FC = () => {
   const { title, subtitle } = useSiteMetadata();
   const categories = useCategoriesList();
 

@@ -1,4 +1,3 @@
-// @flow strict
 import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
@@ -13,7 +12,7 @@ type Props = {
   }
 };
 
-const PageTemplate = ({ data }: Props) => {
+const PageTemplate: React.FC<Props> = ({ data }) => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
   const { html: pageBody } = data.markdownRemark;
   const { frontmatter } = data.markdownRemark;

@@ -1,7 +1,11 @@
-// @flow strict
 import { useStaticQuery, graphql } from 'gatsby';
 
-const useCategoriesList = () => {
+type Tag = {
+  fieldValue: string;
+  totalCount: number;
+};
+
+const useCategoriesList = (): Tag[] => {
   const { allMarkdownRemark } = useStaticQuery(
     graphql`
       query CategoriesListQuery {
