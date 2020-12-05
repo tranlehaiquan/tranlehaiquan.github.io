@@ -12,11 +12,11 @@ const Author: React.FC = () => {
         {author.bio}
         <a
           className={styles['author__bio-twitter']}
-          href={getContactHref('twitter', author.contacts.twitter)}
+          href={getContactHref('twitter', author.contacts.github)}
           rel="noopener noreferrer"
           target="_blank"
         >
-          <strong>{author.name}</strong> on Twitter
+          <strong>{author.name}</strong> on Github
         </a>
       </p>
     </div>
