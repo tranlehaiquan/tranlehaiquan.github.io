@@ -9,16 +9,14 @@ import { RenderCallback } from '../types';
 describe('PageTemplate', () => {
   const props = {
     data: {
-      ...markdownRemark
-    }
+      ...markdownRemark,
+    },
   };
 
   beforeEach(() => {
     StaticQuery.mockImplementationOnce(
-      ({ render }: RenderCallback) => (
-        render(siteMetadata)
-      ),
-      useStaticQuery.mockReturnValue(siteMetadata)
+      ({ render }: RenderCallback) => render(siteMetadata),
+      useStaticQuery.mockReturnValue(siteMetadata),
     );
   });
 

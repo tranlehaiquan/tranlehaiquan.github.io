@@ -7,7 +7,7 @@ import styles from './Sidebar.module.scss';
 import { useSiteMetadata } from '../../hooks';
 
 type Props = {
-  isIndex?: boolean,
+  isIndex?: boolean;
 };
 
 const Sidebar: React.FC<Props> = ({ isIndex }) => {

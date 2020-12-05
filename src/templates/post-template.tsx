@@ -7,8 +7,8 @@ import { MarkdownRemark } from '../types';
 
 type Props = {
   data: {
-    markdownRemark: MarkdownRemark
-  }
+    markdownRemark: MarkdownRemark;
+  };
 };
 
 const PostTemplate: React.FC<Props> = ({ data }) => {
@@ -19,7 +19,7 @@ const PostTemplate: React.FC<Props> = ({ data }) => {
   const socialImageUrl = typeof socialImage !== 'undefined' ? socialImage['publicURL'] : undefined;
 
   return (
-    <Layout title={`${postTitle} - ${siteTitle}`} description={metaDescription} socialImage={socialImageUrl} >
+    <Layout title={`${postTitle} - ${siteTitle}`} description={metaDescription} socialImage={socialImageUrl}>
       <Post post={data.markdownRemark} />
     </Layout>
   );

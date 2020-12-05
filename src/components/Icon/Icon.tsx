@@ -2,11 +2,11 @@ import React from 'react';
 import styles from './Icon.module.scss';
 
 type Props = {
-  name: string,
+  name: string;
   icon: {
-    viewBox?: string,
-    path?: string
-  }
+    viewBox?: string;
+    path?: string;
+  };
 };
 
 const Icon: React.FC<Props> = ({ name, icon }) => (

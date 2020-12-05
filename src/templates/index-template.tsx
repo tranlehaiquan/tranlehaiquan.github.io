@@ -9,20 +9,14 @@ import { useSiteMetadata } from '../hooks';
 import { PageContext, AllMarkdownRemark } from '../types';
 
 type Props = {
-  data: AllMarkdownRemark,
-  pageContext: PageContext
+  data: AllMarkdownRemark;
+  pageContext: PageContext;
 };
 
 const IndexTemplate: React.FC<Props> = ({ data, pageContext }) => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
 
-  const {
-    currentPage,
-    hasNextPage,
-    hasPrevPage,
-    prevPagePath,
-    nextPagePath
-  } = pageContext;
+  const { currentPage, hasNextPage, hasPrevPage, prevPagePath, nextPagePath } = pageContext;
 
   const { edges } = data.allMarkdownRemark;
   const pageTitle = currentPage > 0 ? `Posts - Page ${currentPage} - ${siteTitle}` : siteTitle;
@@ -46,11 +40,11 @@ const IndexTemplate: React.FC<Props> = ({ data, pageContext }) => {
 export const query = graphql`
   query IndexTemplate($postsLimit: Int!, $postsOffset: Int!) {
     allMarkdownRemark(
-        limit: $postsLimit,
-        skip: $postsOffset,
-        filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } },
-        sort: { order: DESC, fields: [frontmatter___date] }
-      ){
+      limit: $postsLimit
+      skip: $postsOffset
+      filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } }
+      sort: { order: DESC, fields: [frontmatter___date] }
+    ) {
       edges {
         node {
           fields {

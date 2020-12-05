@@ -9,20 +9,14 @@ import { useSiteMetadata } from '../hooks';
 import type { PageContext, AllMarkdownRemark } from '../types';
 
 type Props = {
-  data: AllMarkdownRemark,
-  pageContext: PageContext
+  data: AllMarkdownRemark;
+  pageContext: PageContext;
 };
 
 const NotesTemplate: React.FC<Props> = ({ data, pageContext }) => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
 
-  const {
-    currentPage,
-    hasNextPage,
-    hasPrevPage,
-    prevPagePath,
-    nextPagePath
-  } = pageContext;
+  const { currentPage, hasNextPage, hasPrevPage, prevPagePath, nextPagePath } = pageContext;
 
   const { edges } = data.allMarkdownRemark;
   const pageTitle = currentPage > 0 ? `Notes - Page ${currentPage} - ${siteTitle}` : siteTitle;
@@ -46,11 +40,11 @@ const NotesTemplate: React.FC<Props> = ({ data, pageContext }) => {
 export const query = graphql`
   query NotesTemplate($postsLimit: Int!, $postsOffset: Int!) {
     allMarkdownRemark(
-        limit: $postsLimit,
-        skip: $postsOffset,
-        filter: { frontmatter: { template: { eq: "note" }, draft: { ne: true } } },
-        sort: { order: DESC, fields: [frontmatter___date] }
-      ){
+      limit: $postsLimit
+      skip: $postsOffset
+      filter: { frontmatter: { template: { eq: "note" }, draft: { ne: true } } }
+      sort: { order: DESC, fields: [frontmatter___date] }
+    ) {
       edges {
         node {
           fields {

@@ -76,7 +76,7 @@ const useSiteMetadata = (): SiteMetadata => {
           }
         }
       }
-    `
+    `,
   );
 
   return site.siteMetadata;

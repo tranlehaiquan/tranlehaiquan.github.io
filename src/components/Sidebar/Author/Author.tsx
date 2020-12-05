@@ -4,11 +4,11 @@ import styles from './Author.module.scss';
 
 type Props = {
   author: {
-    name: string,
-    bio: string,
-    photo: string
-  },
-  isIndex?: boolean
+    name: string;
+    bio: string;
+    photo: string;
+  };
+  isIndex?: boolean;
 };
 
 const Author: React.FC<Props> = ({ author, isIndex }) => (
@@ -23,13 +23,17 @@ const Author: React.FC<Props> = ({ author, isIndex }) => (
       />
     </Link>
 
-    { isIndex === true ? (
+    {isIndex === true ? (
       <h1 className={styles['author__title']}>
-        <Link className={styles['author__title-link']} to="/">{author.name}</Link>
+        <Link className={styles['author__title-link']} to="/">
+          {author.name}
+        </Link>
       </h1>
     ) : (
       <h2 className={styles['author__title']}>
-        <Link className={styles['author__title-link']} to="/">{author.name}</Link>
+        <Link className={styles['author__title-link']} to="/">
+          {author.name}
+        </Link>
       </h2>
     )}
     <p className={styles['author__subtitle']}>{author.bio}</p>

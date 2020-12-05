@@ -16,7 +16,7 @@ const useTagsList = (): Tag[] => {
           }
         }
       }
-    `
+    `,
   );
 
   return allMarkdownRemark.group;

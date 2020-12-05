@@ -1,9 +1,10 @@
-import React from 'react';import ReactDisqusComments from 'react-disqus-comments';
+import React from 'react';
+import ReactDisqusComments from 'react-disqus-comments';
 import { useSiteMetadata } from '../../../hooks';
 
 type Props = {
-  postTitle: string,
-  postSlug: string
+  postTitle: string;
+  postSlug: string;
 };
 
 const Comments: React.FC<Props> = ({ postTitle, postSlug }) => {
@@ -14,12 +15,7 @@ const Comments: React.FC<Props> = ({ postTitle, postSlug }) => {
   }
 
   return (
-    <ReactDisqusComments
-      shortname={disqusShortname}
-      identifier={postTitle}
-      title={postTitle}
-      url={url + postSlug}
-    />
+    <ReactDisqusComments shortname={disqusShortname} identifier={postTitle} title={postTitle} url={url + postSlug} />
   );
 };
 

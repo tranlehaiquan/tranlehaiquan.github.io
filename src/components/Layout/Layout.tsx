@@ -4,17 +4,12 @@ import { useSiteMetadata } from '../../hooks';
 import styles from './Layout.module.scss';
 
 type Props = {
-  title: string,
-  description?: string,
-  socialImage?: string
+  title: string;
+  description?: string;
+  socialImage?: string;
 };
 
-const Layout: React.FC<Props> = ({
-  children,
-  title,
-  description,
-  socialImage = ''
-}) => {
+const Layout: React.FC<Props> = ({ children, title, description, socialImage = '' }) => {
   const { author, url } = useSiteMetadata();
   const metaImage = socialImage || author.photo;
   const metaImageUrl = url + metaImage;
