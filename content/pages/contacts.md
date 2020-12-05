@@ -1,6 +1,6 @@
 ---
 template: page
-title: Contact me
+title: Liên hệ
 slug: contact
 socialImage: /media/aa9501df489c885cce3f31b0fc6234ef.png
 draft: false
