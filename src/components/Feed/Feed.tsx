@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import format from 'date-fns/format';
+
 import { Edges } from '../../types';
 import styles from './Feed.module.scss';
 
@@ -14,17 +16,13 @@ const Feed: React.FC<Props> = ({ edges }) => (
         <div className={styles['feed__item-meta']}>
           <time
             className={styles['feed__item-meta-time']}
-            dateTime={new Date(edge.node.frontmatter.date).toLocaleDateString('en-US', {
-              year: 'numeric',
-              month: 'long',
-              day: 'numeric',
-            })}
+            dateTime={format(new Date(edge.node.frontmatter.date), 'dd/MM/yyyy')}
           >
-            {new Date(edge.node.frontmatter.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long' })}
+            {format(new Date(edge.node.frontmatter.date), 'dd/MM/yyyy')}
           </time>
           <span className={styles['feed__item-meta-divider']} />
           <span className={styles['feed__item-meta-category']}>
-            <Link to={edge.node.fields.categorySlug} className={styles['feed__item-meta-category-link']}>
+            <Link to={edge.node.fields.categorySlug || ''} className={styles['feed__item-meta-category-link']}>
               {edge.node.frontmatter.category}
             </Link>
           </span>

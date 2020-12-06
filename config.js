@@ -12,15 +12,15 @@ module.exports = {
   useKatex: false,
   menu: [
     {
-      label: 'Articles',
+      label: ' Bài viết',
       path: '/'
     },
     {
-      label: 'About me',
+      label: 'Về tôi',
       path: '/pages/about'
     },
     {
-      label: 'Contact me',
+      label: 'Liên hệ',
       path: '/pages/contacts'
     },
     {

@@ -1,7 +1,7 @@
 ---
 template: page
 title: Liên hệ
-slug: contact
+slug: contacts
 socialImage: /media/aa9501df489c885cce3f31b0fc6234ef.png
 draft: false
 ---
