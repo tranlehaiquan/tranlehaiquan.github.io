@@ -7,9 +7,10 @@ type Props = {
   title: string;
   description?: string;
   socialImage?: string;
+  detailUrl?: string;
 };
 
-const Layout: React.FC<Props> = ({ children, title, description, socialImage = '' }) => {
+const Layout: React.FC<Props> = ({ children, title, description, socialImage = '', detailUrl = '' }) => {
   const { author, url } = useSiteMetadata();
   const metaImage = socialImage || author.photo;
   const metaImageUrl = url + metaImage;
@@ -22,6 +23,10 @@ const Layout: React.FC<Props> = ({ children, title, description, socialImage = '
         <meta name="description" content={description} />
         <meta property="og:site_name" content={title} />
         <meta property="og:image" content={metaImageUrl} />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        {detailUrl && <meta property="og:url" content={url + detailUrl} />}
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />

@@ -21,7 +21,12 @@ const PageTemplate: React.FC<Props> = ({ data }) => {
   const socialImageUrl = typeof socialImage !== 'undefined' ? socialImage['publicURL'] : undefined;
 
   return (
-    <Layout title={`${pageTitle} - ${siteTitle}`} description={metaDescription} socialImage={socialImageUrl}>
+    <Layout
+      detailUrl={`${data.markdownRemark.fields.slug}`}
+      title={`${pageTitle} - ${siteTitle}`}
+      description={metaDescription}
+      socialImage={socialImageUrl}
+    >
       <Sidebar />
       <Page title={pageTitle}>
         <div dangerouslySetInnerHTML={{ __html: pageBody }} />
@@ -35,6 +40,9 @@ export const query = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       html
+      fields {
+        slug
+      }
       frontmatter {
         title
         date

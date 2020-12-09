@@ -11,6 +11,7 @@ tags:
   - javascript
   - js
   - blog
+allowComment: true
 ---
 Hello the world!
 

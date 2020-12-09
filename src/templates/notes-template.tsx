@@ -22,7 +22,7 @@ const NotesTemplate: React.FC<Props> = ({ data, pageContext }) => {
   const pageTitle = currentPage > 0 ? `Notes - Page ${currentPage} - ${siteTitle}` : siteTitle;
 
   return (
-    <Layout title={pageTitle} description={siteSubtitle}>
+    <Layout detailUrl={'/notes'} title={pageTitle} description={siteSubtitle}>
       <Sidebar isIndex />
       <Page>
         <Feed edges={edges} />

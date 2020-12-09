@@ -19,7 +19,12 @@ const PostTemplate: React.FC<Props> = ({ data }) => {
   const socialImageUrl = typeof socialImage !== 'undefined' ? socialImage['publicURL'] : undefined;
 
   return (
-    <Layout title={`${postTitle} - ${siteTitle}`} description={metaDescription} socialImage={socialImageUrl}>
+    <Layout
+      title={`${postTitle} - ${siteTitle}`}
+      description={metaDescription}
+      socialImage={socialImageUrl}
+      detailUrl={`${data.markdownRemark.fields.slug}`}
+    >
       <Post post={data.markdownRemark} />
     </Layout>
   );
@@ -39,6 +44,7 @@ export const query = graphql`
         description
         tags
         title
+        allowComment
         socialImage {
           publicURL
         }

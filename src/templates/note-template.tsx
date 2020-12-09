@@ -19,7 +19,12 @@ const NoteTemplate: React.FC<Props> = ({ data }) => {
   const socialImageUrl = typeof socialImage !== 'undefined' ? socialImage['publicURL'] : undefined;
 
   return (
-    <Layout title={`${postTitle} - ${siteTitle}`} description={metaDescription} socialImage={socialImageUrl}>
+    <Layout
+      detailUrl={`${data.markdownRemark.fields.slug}`}
+      title={`${postTitle} - ${siteTitle}`}
+      description={metaDescription}
+      socialImage={socialImageUrl}
+    >
       <Post post={data.markdownRemark} />
     </Layout>
   );
