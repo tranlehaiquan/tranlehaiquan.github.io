@@ -27,6 +27,7 @@ collections:
       - {label: "Category", name: "category", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Allow comment", name: "allowComment", widget: "boolean", default: true}
 
   - name: "pages"
     label: "Pages"
@@ -40,7 +41,7 @@ collections:
       - {label: "Social Image", name: "socialImage", widget: "image"}
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Body", name: "body", widget: "markdown"}
-  
+
   - name: "Notes"
     label: "Notes"
     folder: "content/notes"

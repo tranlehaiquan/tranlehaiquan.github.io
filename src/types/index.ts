@@ -36,6 +36,7 @@ export type Node = {
     socialImage?: {
       publicURL: string;
     };
+    allowComment?: boolean;
   };
   html: string;
   id: string;

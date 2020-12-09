@@ -15,12 +15,12 @@ type Props = {
 const Post: React.FC<Props> = ({ post }) => {
   const { html } = post;
   const { tagSlugs, slug } = post.fields;
-  const { tags, title, date } = post.frontmatter;
+  const { tags, title, date, allowComment = true } = post.frontmatter;
 
   return (
     <div className={styles['post']}>
       <Link className={styles['post__home-button']} to="/">
-        All Articles
+        Trang chủ
       </Link>
 
       <div className={styles['post__content']}>
@@ -33,9 +33,11 @@ const Post: React.FC<Props> = ({ post }) => {
         <Author />
       </div>
 
-      <div className={styles['post__comments']}>
-        <Comments postSlug={slug} postTitle={post.frontmatter.title} />
-      </div>
+      {allowComment && (
+        <div className={styles['post__comments']}>
+          <Comments postSlug={slug} postTitle={post.frontmatter.title} />
+        </div>
+      )}
     </div>
   );
 };
