@@ -11,6 +11,7 @@ tags:
   - aws
   - charge
   - lost money
+allowComment: false
 ---
 Chuyện bắt đầu vào chừng đầu tháng 5 vừa rồi. Mình có đăng ký trải nghiệm AWS free tier để trải nghiệm và học hỏi thêm về các service mà Amazone cung cấp, hầu hết dịch vụ mình dùng chủ yêu xoay quanh S3 và Cloudfront. Và nếu nhưng chuyện dừng ở đó thì tốt biết mấy. Vừa hay tháng trước có kèo setup một trang Wordpress, theo như những kiến thức hạn hẹp mà mình biết lúc trước thì để setup một trang Wordpress thì cần một computer instance và một database để lưu trữ (rds). \
 \
