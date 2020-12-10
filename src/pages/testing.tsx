@@ -29,7 +29,8 @@ export default function Testing() {
 
   return (
     <Layout title="testing">
-      <form data-netlify="true" method="post" onSubmit={handleSubmit}>
+      <form data-netlify="true" name="contact" method="post" onSubmit={handleSubmit}>
+      <input type="hidden" name="form-name" value="contact" />
         <label>
           What order did the pizza give to the pineapple?
           <input value={name} type="text" onChange={handleInputChange} />
