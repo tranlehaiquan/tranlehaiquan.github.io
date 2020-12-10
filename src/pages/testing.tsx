@@ -1,42 +1,57 @@
 import React, { useState } from 'react';
 import Layout from '../components/Layout';
 
-export default function Testing() {
-  const [name, setName] = useState('');
-  function encode(data: { [key: string]: string }) {
-    return Object.keys(data)
-      .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
-      .join('&');
+const encode = (data) => {
+  return Object.keys(data)
+    .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+    .join('&');
+};
+
+export default class ContactForm extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { name: '', email: '', message: '' };
   }
 
-  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-    fetch('https://quantran.dev/', {
+  /* Here’s the juicy bit for posting the form submission */
+
+  handleSubmit = (e) => {
+    fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: encode({
-        'form-name': 'contact',
-        name: 'quan',
-      }),
+      body: encode({ 'form-name': 'contact', ...this.state }),
     })
-      .then(() => alert('thank u'))
+      .then(() => alert('Success!'))
       .catch((error) => alert(error));
+
+    e.preventDefault();
   };
 
-  const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setName(event.target.value);
-  };
+  handleChange = (e) => this.setState({ [e.target.name]: e.target.value });
 
-  return (
-    <Layout title="testing">
-      <form data-netlify="true" name="contact" method="post" onSubmit={handleSubmit}>
-      <input type="hidden" name="form-name" value="contact" />
-        <label>
-          What order did the pizza give to the pineapple?
-          <input value={name} type="text" onChange={handleInputChange} />
-        </label>
-        <input type="submit" />
+  render() {
+    const { name, email, message } = this.state;
+    return (
+      <form onSubmit={this.handleSubmit}>
+        <p>
+          <label>
+            Your Name: <input type="text" name="name" value={name} onChange={this.handleChange} />
+          </label>
+        </p>
+        <p>
+          <label>
+            Your Email: <input type="email" name="email" value={email} onChange={this.handleChange} />
+          </label>
+        </p>
+        <p>
+          <label>
+            Message: <textarea name="message" value={message} onChange={this.handleChange} />
+          </label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
       </form>
-    </Layout>
-  );
+    );
+  }
 }
