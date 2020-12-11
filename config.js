@@ -8,7 +8,7 @@ module.exports = {
   copyright: '© All rights reserved.',
   disqusShortname: 'quantran',
   postsPerPage: 4,
-  // googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: 'G-7QW3SEV42G',
   useKatex: false,
   menu: [
     {
