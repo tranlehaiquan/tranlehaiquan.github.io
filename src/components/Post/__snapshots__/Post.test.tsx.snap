@@ -4,12 +4,16 @@ exports[`Post renders correctly 1`] = `
 <div
   className="post"
 >
-  <a
-    className="post__home-button"
-    href="/"
+  <div
+    className="homePageLink"
   >
-    Trang chủ
-  </a>
+    <a
+      className="post__home-button"
+      href="/"
+    >
+      Trang chủ
+    </a>
+  </div>
   <div
     className="post__content"
   >

@@ -21,7 +21,7 @@ module.exports = {
     },
     {
       label: 'Liên hệ',
-      path: '/pages/contacts'
+      path: '/contacts'
     },
     {
       label: 'Notes',

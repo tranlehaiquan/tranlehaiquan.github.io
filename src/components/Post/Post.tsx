@@ -19,9 +19,11 @@ const Post: React.FC<Props> = ({ post }) => {
 
   return (
     <div className={styles['post']}>
-      <Link className={styles['post__home-button']} to="/">
-        Trang chủ
-      </Link>
+      <div className={styles.homePageLink}>
+        <Link className={styles['post__home-button']} to="/">
+          Trang chủ
+        </Link>
+      </div>
 
       <div className={styles['post__content']}>
         <Content body={html} title={title} />

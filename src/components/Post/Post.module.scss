@@ -14,9 +14,12 @@
     padding: 0 15px;
   }
 
+  .homePageLink {
+    text-align: center;
+  }
+
   &__home-button {
-    display: block;
-    max-width: 120px;
+    display: inline-block;
     height: $button-height;
     padding: 0 24px;
     line-height: $button-height;
@@ -34,7 +37,6 @@
     &:focus {
       color: $color-primary;
     }
-
   }
 
 }
@@ -56,7 +58,5 @@
       top: 30px;
       left: 30px
     }
-
   }
-
 }
