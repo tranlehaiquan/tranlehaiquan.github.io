@@ -30,38 +30,23 @@ const PageTemplate: React.FC = () => {
   const { touched, errors } = formik;
 
   return (
-    <form className={classes.layout} onSubmit={formik.handleSubmit} name="contact" data-netlify="true">
+    <form onSubmit={formik.handleSubmit} name="contact" data-netlify="true">
       <div className={classes.row}>
         <label>Tên bạn:</label>
-        <input
-          type="text"
-          name="name"
-          value={formik.values.name}
-          onChange={formik.handleChange}
-        />
-        {touched.name && errors.name && errors.name}
+        <input type="text" name="name" value={formik.values.name} onChange={formik.handleChange} />
+        <span className={classes.error}>{touched.name && errors.name && errors.name}</span>
       </div>
       <div className={classes.row}>
         <label>Email:</label>
-        <input
-          type="email"
-          name="email"
-          value={formik.values.email}
-          onChange={formik.handleChange}
-        />
-        {touched.email && errors.email && errors.email}
+        <input type="email" name="email" value={formik.values.email} onChange={formik.handleChange} />
+        <span className={classes.error}>{touched.email && errors.email && errors.email}</span>
       </div>
       <div className={classes.row}>
         <label>Lời nhắn:</label>
-        <textarea
-          name="message"
-          value={formik.values.message}
-          onChange={formik.handleChange}
-          maxLength={100}
-        />
+        <textarea name="message" value={formik.values.message} onChange={formik.handleChange} maxLength={100} />
       </div>
       <div className={classes.row}>
-        <button type="submit">Gửi</button>
+        <button className={classes.button} type="submit">Gửi</button>
       </div>
     </form>
   );
