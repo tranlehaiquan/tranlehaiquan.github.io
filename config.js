@@ -3,8 +3,8 @@
 module.exports = {
   url: 'https://quantran.dev',
   pathPrefix: '/',
-  title: 'Code phê blog',
-  subtitle: 'Code phê, coffee blog',
+  title: 'Coffee blog',
+  subtitle: 'Coffee, coffee blog',
   copyright: '© All rights reserved.',
   disqusShortname: 'quantran',
   postsPerPage: 4,
