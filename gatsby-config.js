@@ -139,13 +139,13 @@ module.exports = {
     },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
-    'gatsby-plugin-netlify',
     {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
         modulePath: `${__dirname}/src/cms/index.js`,
       },
     },
+    'gatsby-plugin-netlify',
     {
       resolve: 'gatsby-plugin-google-gtag',
       options: {
@@ -249,7 +249,7 @@ module.exports = {
       options: {
         fonts: {
           google: [{
-            family: 'Roboto Mono',
+            family: 'Be Vietnam',
             variants: ['300', '400', '600'],
             fontDisplay: 'swap',
           }, ],
