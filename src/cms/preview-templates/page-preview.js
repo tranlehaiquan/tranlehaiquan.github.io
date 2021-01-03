@@ -5,9 +5,9 @@ const PagePreview = ({ entry, widgetFor }) => {
   const title = entry.getIn(['data', 'title']);
 
   return (
-    <div className="page">
-      <h1 className="page__title">{title}</h1>
-      <div className="page__body">{ body }</div>
+    <div className="content">
+      <h1 className="content__title">{title}</h1>
+      <div className="content__body">{ body }</div>
     </div>
   );
 };

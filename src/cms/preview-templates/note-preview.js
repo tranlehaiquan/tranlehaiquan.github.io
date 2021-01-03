@@ -5,9 +5,9 @@ const TagPreview = ({ entry, widgetFor }) => {
   const title = entry.getIn(['data', 'title']);
 
   return (
-    <div className="tag">
-      <h1 className="tag__title">{title}</h1>
-      <div className="tag__body">{body}</div>
+    <div className="content">
+      <h1 className="content__title">{title}</h1>
+      <div className="content__body">{body}</div>
     </div>
   );
 };
