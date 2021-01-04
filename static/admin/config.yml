@@ -57,3 +57,18 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
+
+  - name: "Journal"
+    label: "Journal"
+    folder: "content/journal"
+    create: true
+    slug: "{{slug}}"
+    preview_path: "Journal/{{fields.slug}}"
+    fields:
+      - {label: "Template", name: "template", widget: "hidden", default: "note"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Social Image", name: "socialImage", widget: "image"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
