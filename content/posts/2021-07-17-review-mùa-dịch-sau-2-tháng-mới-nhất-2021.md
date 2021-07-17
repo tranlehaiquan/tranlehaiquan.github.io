@@ -3,7 +3,7 @@ template: post
 title: Review mùa dịch sau 2 tháng mới nhất 2021
 slug: review-dich-2021
 socialImage: /media/img_3130.jpeg
-draft: true
+draft: false
 date: 2021-07-17T06:00:55.488Z
 description: Review dịch sau 2 tháng trải nghiệm mới nhất 2021
 category: covid, suy nghi, 2021
