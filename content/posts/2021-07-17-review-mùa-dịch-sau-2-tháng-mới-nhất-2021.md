@@ -62,6 +62,8 @@ Lần đầu làm thợ hớt tóc?
 
 ### Lời cuối
 
+Dừng lại việc kỳ vọng không có nghĩa là mất đi hy vọng vẫn hãy cứ vui tươi xinh đẹp như bạn từng. I love you. 
+
 Sài Gòn rồi sẽ sớm khỏe lại thôi 😘, giữ sức khỏe mọi người chúng ta rồi sẽ gặp lại. #stayStrongSaiGon
 
 ![sala](/media/img20210421174915.jpeg "sala")
