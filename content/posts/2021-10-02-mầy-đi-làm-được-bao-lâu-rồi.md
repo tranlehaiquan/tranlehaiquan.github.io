@@ -20,11 +20,11 @@ Từ 2016 ha, vậy là gần tròn 5 năm kể từ lúc đi thực tập. Ng�
 
 #### Đã thây đổi những gì?
 
-Năm năm không là một khoản thời gian không hề ngắn. Rất nhiều thứ đã thây đổi, kể cả bản thân mình. So với lúc trước thì bây giờ đã cải thiện rất nhiều về sức khỏe qua việc tập gym, chạy bộ. Về mặt thu nhập có thể dành dụm và gửi về cho gia đình, mua những gì mà mình muốn. Tính cách cởi mở, hòa nhập hơn lúc trước (đôi khi hơi lầy). Công việc thì đã rành hơn lúc trước một tý, biết được mình cần làm gì, học gì. Tìm được nhiều thú vui hơn như chạy bộ, leo núi (trekking), chụp ảnh...
+Năm năm là một khoản thời gian không hề ngắn. Rất nhiều thứ đã thây đổi, kể cả bản thân mình. So với lúc trước thì bây giờ đã cải thiện rất nhiều về sức khỏe qua việc tập gym, chạy bộ. Về mặt thu nhập có thể dành dụm và gửi về cho gia đình, mua những gì mà mình muốn. Suy nghĩ và tính cách cởi mở, hòa nhập hơn lúc trước (đôi khi hơi lầy). Công việc thì đã rành hơn lúc trước một tý, biết được mình cần làm gì, học gì. Tìm được nhiều thú vui hơn như chạy bộ, leo núi (trekking), chụp ảnh...
 
 #### Sẽ thây đổi những gì?
 
-Không biết 😆. Thật sự mình không biết... mình không được giỏi lắm trong việc lên kế hoạch 5 năm, 10 năm. Kể cả việc vào SG mình cũng quyết định cỡ 1-2 rồi vào luôn. Mình còn chẳng biết mai ăn gì 😂.. Bản thân là kiểu cứ làm tốt việc hôm nay thì ngày mai sẽ tốt hơn. Cũng từng cố lên kế hoạch nhiều thứ, nhưng cái nào lên kế hoạch là cái đó bể :)). Nên thôi nghe lời anh Đen.
+Không biết 😆. Thật sự mình không biết... mình không được giỏi lắm trong việc lên kế hoạch 5 năm, 10 năm. Kể cả việc vào SG mình cũng quyết định cỡ 1-2 tuần rồi vào luôn. Mình còn chẳng biết mai ăn gì 😂.. Bản thân là kiểu cứ làm tốt việc hôm nay thì ngày mai sẽ tốt hơn. Cũng từng cố lên kế hoạch nhiều thứ, nhưng cái nào lên kế hoạch là cái đó bể :)). Nên thôi nghe lời anh Đen.
 
 > Anh chưa từng lên kế hoạch cho cuộc đời anh\
 > Sẽ là Mây đen kéo đến hay trời ngời xanh\
