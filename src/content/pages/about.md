@@ -5,14 +5,15 @@ slug: about
 socialImage: /media/img20201122191730.jpg
 draft: false
 ---
+
 ### Đôi điều về bản thân:
 
-Tui tên Quân tên đầy đủ là Trần Lê Hải Quân, trước chắc ba má tui thích tui đi làm Hải Quân nên đặt vậy nhưng sau này tui thích thú về máy tính hơn cộng vào đó cũng không mạnh trong bộ môn thể thao nữa nên theo theo lập trình (thực sự trong thâm tâm tui thích làm Không Quân 😆). Tui không phải là một người đặt ra những dự định lâu dài mà tập trung vào việc làm tốt những thứ ngắn hạn hơn hoặc cứ làm, điều đó giúp tui tiếp kiệm được thời gian hơn nhưng đôi khi mất phương hướng. Tui cũng hay chạy bộ hoặc bơi lội, thích chụp choạt mấy cái cảnh đẹp đẹp nghệ nghệ. 
+Tui tên Quân tên đầy đủ là Trần Lê Hải Quân, trước chắc ba má tui thích tui đi làm Hải Quân nên đặt vậy nhưng sau này tui thích thú về máy tính hơn cộng vào đó cũng không mạnh trong bộ môn thể thao nữa nên theo theo lập trình (thực sự trong thâm tâm tui thích làm Không Quân 😆). Tui không phải là một người đặt ra những dự định lâu dài mà tập trung vào việc làm tốt những thứ ngắn hạn hơn hoặc cứ làm, điều đó giúp tui tiếp kiệm được thời gian hơn nhưng đôi khi mất phương hướng. Tui cũng hay chạy bộ hoặc bơi lội, thích chụp choạt mấy cái cảnh đẹp đẹp nghệ nghệ.
 
 Tui viết trang này để đôi khi bạn bè hoặc thầy cô có hỏi thì tui không cần giải thích là bản thân làm gì nữa.
 
 > Nếu ai đó hỏi tôi tại sao thức khuya?\
-> Có lẽ chỉ có vào buổi đêm mới có được âm thanh im ắng, tiếng gió, tiếng tắc kè : D 
+> Có lẽ chỉ có vào buổi đêm mới có được âm thanh im ắng, tiếng gió, tiếng tắc kè : D
 
 ![Ăn mọi thứ](/media/img20201128142401.jpg "Ăn mọi thứ")
 

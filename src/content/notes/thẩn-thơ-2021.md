@@ -1,17 +1,15 @@
 ---
-template: post
+template: note
 title: Thẩn thơ 2021
 slug: than-tho-07-2021
-socialImage: /media/img20210421174915.jpeg
-draft: true
-date: 2021-07-18T06:11:41.106Z
-description: Thẩn thơ 2021
-category: tho
+socialImage: /media/img20210504210040.jpeg
+draft: false
 tags:
-  - tho
+  - thơ
   - "2021"
-allowComment: true
+date: 2021-07-18T04:09:29.948Z
 ---
+
 > Anh thích luôn bên em\
 > Là người làm em cười\
 > Khi em xinh đẹp nhất\
@@ -35,4 +33,4 @@ allowComment: true
 > Nhưng cho con xin lỗi\
 > Điều đó làm cho ấy vui
 
-Tran Le Hai Quan (Béo 07-2021)
+Béo (07-2021)

@@ -13,6 +13,7 @@ tags:
   - blog
 allowComment: true
 ---
+
 Hello the world!
 
 ```javascript
@@ -22,5 +23,5 @@ const aDay = () => {
   makeCoffee();
   code();
   sleep();
-}
+};
 ```

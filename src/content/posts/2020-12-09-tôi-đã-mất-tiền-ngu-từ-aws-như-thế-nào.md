@@ -13,6 +13,7 @@ tags:
   - lost money
 allowComment: false
 ---
+
 Chuyện bắt đầu vào chừng đầu tháng 5 vừa rồi. Mình có đăng ký trải nghiệm AWS free tier để trải nghiệm và học hỏi thêm về các service mà Amazone cung cấp, hầu hết dịch vụ mình dùng chủ yêu xoay quanh S3 và Cloudfront. Và nếu nhưng chuyện dừng ở đó thì tốt biết mấy. Vừa hay tháng trước có kèo setup một trang Wordpress, theo như những kiến thức hạn hẹp mà mình biết lúc trước thì để setup một trang Wordpress thì cần một computer instance và một database để lưu trữ (rds). \
 \
 Chả hiểu kiểu gì lúc chọn tạo rds thì chọn loại large và khi setup xong và không dùng nữa thì lại không đi xóa T_T. Và chuyện gì đến cũng phải đến, lần đầu tiên mình nhận được tin nhắn trừ tiên tài khoản thì không thành công (do tài khoản mình không để tiền) chủ quan là nó sẽ không sao hết. Đến ngày nhận lương qua tài khoản thì bên AWS recharge lại lần nữa và chả biết phải số trời không mà số tiền trongt tài khoản vừa vặn với số tiền cần charge 😌. Và thế là dù chỉ mới đầu tháng của mọi người nhưng đã là cuối tháng của bản thân 😓.
@@ -30,8 +31,6 @@ Vào phần console -> [billing](https://console.aws.amazon.com/billing/) -> Bil
 Budget của aws giúp chúng ta theo dõi được việc tiêu tiền và có thể cảnh báo (mail) khi đạt một mức nhất định.
 
 ![đặt budget](/media/console.aws.amazon.com_billing_home_.png "budget")
-
-
 
 #### Close tài khoản
 

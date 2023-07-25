@@ -8,6 +8,7 @@ tags:
   - "#30DaysProblemSolving"
 date: 2020-11-29T06:50:11.141Z
 ---
+
 Những việc tui sẽ làm trong 30 ngày này:
 
 Xem 1 video mới trên algoexpert.io, đồng thời giải 1 bài mới ở phần coding interview question.
@@ -27,8 +28,8 @@ Dùng khi ta giải quyết một bài code interview. Để tính được đ�
 Nó là gì?\
 1 memory slot = 8 bits = 1 byte. Ví dụ khi khai báo một interger (32 bits = 4 bytes = 4 slots) thì 4 slots memory sẽ được dành cho việc lưu interger này (back to back) một cách không bị gián đoạn.
 
- Được dùng ở đâu?\
-Khi khai báo một variable, một array, v.v... 
+Được dùng ở đâu?\
+Khi khai báo một variable, một array, v.v...
 
 ### Logarithm
 
@@ -37,16 +38,16 @@ Thuật ngữ toán học. Ví dụ:
 
 > log<sub>b</sub>(x) <=> b<sup>y</sup> = x
 
-Trong toán học base log thường là 10 nhưng trong lập trình base được ngầm định là 2. 
+Trong toán học base log thường là 10 nhưng trong lập trình base được ngầm định là 2.
 
 > log(x) = y <=> 2<sup>y</sup> = x\
-> log(N) = y <=> 2<sup>y</sup> = N <=> 2<sup>(y + 1)</sup> = N * 2
+> log(N) = y <=> 2<sup>y</sup> = N <=> 2<sup>(y + 1)</sup> = N \* 2
 
 Dùng nó ở đâu?
 
 Dùng nó để giải toán kiếm điểm 15p, 1 tiếng và người ta hay dùng nó để biểu diễn độ phức tạp nữa vd:
 
-> log(N), N * log(N)...
+> log(N), N \* log(N)...
 
 \
 \

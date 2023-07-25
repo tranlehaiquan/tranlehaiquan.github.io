@@ -13,6 +13,7 @@ tags:
   - "2021"
 allowComment: true
 ---
+
 Cuối tuần này là cũng sắp được gần tròn 2 tháng Sài Gòn giãn cách xã hội (gộp chung đợi chỉ thị 15) chợt nhớ là mình có cái blog lỡ mua tiền domain rồi thì cũng cố gắng một năm được dăm ba bài (bài thứ 2 trong năm ghê chưa?) để có cái gọi là ghi lại mà cũng là có cái để khoe với bàn dân thiên hạ.
 
 ### Cảm nghĩ về dịch 2021 sau 2 tháng trải nghiệm
@@ -35,22 +36,22 @@ Về mối quan hệ người và người, thật là khó để làm quen ho�
 
 #### Dừng lại việc kỳ vọng đối mặt với tình huống xấu
 
-Đơn giản do bản thân tôi đã kỳ vọng quá nhiều, kỳ vọng rằng mình ở nhà thì mọi người cũng sẽ ở nhà rồi dịch cũng hết mà thôi. Kỳ vọng về người ta sẽ có suy nghĩ giống mình. **Nhưng việc kỳ vọng vào những thứ (người) khác, thứ mà mình không nên và cũng không kiểm soát được chỉ làm cho bản thân thất vọng**. 
+Đơn giản do bản thân tôi đã kỳ vọng quá nhiều, kỳ vọng rằng mình ở nhà thì mọi người cũng sẽ ở nhà rồi dịch cũng hết mà thôi. Kỳ vọng về người ta sẽ có suy nghĩ giống mình. **Nhưng việc kỳ vọng vào những thứ (người) khác, thứ mà mình không nên và cũng không kiểm soát được chỉ làm cho bản thân thất vọng**.
 
 Ví dụ như:
 
-* Mình ở nhà thì mọi người cũng sẽ ở nhà như mình
-* Như việc bị nhốt ở nhà thì sẽ không có gì tệ hơn nữa, nhưng rồi điện cúp 5p trước meeting
+- Mình ở nhà thì mọi người cũng sẽ ở nhà như mình
+- Như việc bị nhốt ở nhà thì sẽ không có gì tệ hơn nữa, nhưng rồi điện cúp 5p trước meeting
 
 Mọi việc có thể xấu hơn nữa, có thể hôm nay bạn là người may mắn hạnh phúc nhất thì xin chúc mừng bạn, hãy trân trọng nó và hết mình với nó để sau này dù có chuyện gì xảy ra cũng không hề hối tiếc.
 
 #### Cái nhìn khác về đại dịch, giãn cách xã hội
 
-Thật ra thì bản thân đã rất may mắn vì nằm trong **ngành nghề ít bị ảnh** hưởng nhất của đại dịch hơn nhiều người ngoài kia. Trong thời gian xã hội tôi lại có thời gian để và làm được nhiều việc mà có thể trước kia mà không làm được 
+Thật ra thì bản thân đã rất may mắn vì nằm trong **ngành nghề ít bị ảnh** hưởng nhất của đại dịch hơn nhiều người ngoài kia. Trong thời gian xã hội tôi lại có thời gian để và làm được nhiều việc mà có thể trước kia mà không làm được
 
-* Dành thời gian cho nhưng người mình quan tâm
-* Dọn phòng một cách kỹ hơn, nhà vệ sinh
-* Học thêm nhiều thứ mới... :))
+- Dành thời gian cho nhưng người mình quan tâm
+- Dọn phòng một cách kỹ hơn, nhà vệ sinh
+- Học thêm nhiều thứ mới... :))
 
 ![God damn, my room is so shiny :))](/media/img20210717103616.jpeg "God damn, my room is so shiny :))")
 
@@ -62,7 +63,7 @@ Lần đầu làm thợ hớt tóc?
 
 ### Lời cuối
 
-Dừng lại việc kỳ vọng không có nghĩa là mất đi hy vọng vẫn hãy cứ vui tươi xinh đẹp như bạn từng. I love you. 
+Dừng lại việc kỳ vọng không có nghĩa là mất đi hy vọng vẫn hãy cứ vui tươi xinh đẹp như bạn từng. I love you.
 
 Sài Gòn rồi sẽ sớm khỏe lại thôi 😘, giữ sức khỏe mọi người chúng ta rồi sẽ gặp lại. #stayStrongSaiGon
 

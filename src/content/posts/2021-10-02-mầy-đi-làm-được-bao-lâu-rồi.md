@@ -12,6 +12,7 @@ tags:
   - sai gon
 allowComment: true
 ---
+
 Mấy hôm trước có ngồi nói chuyện với người bạn thì được hỏi là "Quân mầy đi làm được bao lâu rồi?". Nghĩ một hồi lâu cứ nhớ ngờ ngờ là vào SG năm hai không mười mấy đó sau kỳ thực tập thì có ham vui ở SG nên khăn gói vào nam kiếm việc. Thì hôm nay ngồi lục lại vali thì thấy được cái này:
 
 ![giấy giới thiệu](/media/img_20211003_003643.jpeg "giấy giới thiệu")
