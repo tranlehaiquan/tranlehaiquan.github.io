@@ -1,4 +1,6 @@
-/flow-typed/*
-/public/*
-/node_modules/*
-react-app.d.ts
+.husky
+.vscode
+node_modules
+public
+dist
+.yarn
