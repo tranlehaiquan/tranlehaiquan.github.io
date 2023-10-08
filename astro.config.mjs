@@ -5,9 +5,9 @@ import remarkToc from "remark-toc";
 import remarkCollapse from "remark-collapse";
 import sitemap from "@astrojs/sitemap";
 
-// https://astro.build/config
 export default defineConfig({
-  site: "https://astro-paper.pages.dev/", // replace this with your deployed domain
+  site: "https://tranlehaiquan.github.io",
+  base: '/code-phe-blog',
   integrations: [
     tailwind({
       applyBaseStyles: false,
