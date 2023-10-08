@@ -1,3 +1,6 @@
-/flow-typed/*
-/public/*
-/node_modules/*
+.husky
+.vscode
+node_modules
+public
+dist
+.yarn
