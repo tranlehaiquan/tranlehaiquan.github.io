@@ -7,7 +7,6 @@ import sitemap from "@astrojs/sitemap";
 
 export default defineConfig({
   site: "https://tranlehaiquan.github.io",
-  base: '/code-phe-blog',
   integrations: [
     tailwind({
       applyBaseStyles: false,
