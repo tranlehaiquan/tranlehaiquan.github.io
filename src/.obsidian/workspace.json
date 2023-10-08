@@ -1,38 +1,20 @@
 {
   "main": {
-    "id": "756f6dc7dba771c3",
+    "id": "6b28ace7a9d733be",
     "type": "split",
     "children": [
       {
-        "id": "872da302e6e10383",
+        "id": "da62432a21262692",
         "type": "tabs",
         "children": [
           {
-            "id": "c7cca046a69b7c21",
+            "id": "12840bf219b40575",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Astro + Github Page setup blog cá nhân.md",
-                "mode": "source",
-                "source": false
+                "file": "assets/images/20231009014939.png"
               }
-            }
-          },
-          {
-            "id": "0a062b46843b5756",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "934f0c6b07a4ca87",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ]
@@ -41,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "1400d258776b46f7",
+    "id": "477c8b273e0373ac",
     "type": "split",
     "children": [
       {
-        "id": "0db4d2dab68a1d13",
+        "id": "036c1e0cc9348f5a",
         "type": "tabs",
         "children": [
           {
-            "id": "2dba16197e862a9a",
+            "id": "4402694a62500985",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -59,7 +41,7 @@
             }
           },
           {
-            "id": "1b25a9dfb82ad5b3",
+            "id": "0c507f49bd762b89",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -74,7 +56,7 @@
             }
           },
           {
-            "id": "207af099f227f522",
+            "id": "fd176b5e64b2c82b",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -88,20 +70,20 @@
     "width": 300
   },
   "right": {
-    "id": "39ddc3abb0169cdc",
+    "id": "60f0a433e367f8f1",
     "type": "split",
     "children": [
       {
-        "id": "c90eda71efa462c5",
+        "id": "ee1d8b0947a64e07",
         "type": "tabs",
         "children": [
           {
-            "id": "71dc4f68097f93de",
+            "id": "4e95c88348248fad",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Astro + Github Page setup blog cá nhân.md",
+                "file": "assets/images/20231009014939.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,19 +95,19 @@
             }
           },
           {
-            "id": "0d436b6dde712267",
+            "id": "2fd4845064e520e8",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Astro + Github Page setup blog cá nhân.md",
+                "file": "assets/images/20231009014939.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "1dc2b3c843b7153d",
+            "id": "f45b16af234d1282",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -136,21 +118,28 @@
             }
           },
           {
-            "id": "8e26759840906618",
+            "id": "dc8e359a4c64a992",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Astro + Github Page setup blog cá nhân.md"
+                "file": "assets/images/20231009014939.png"
               }
+            }
+          },
+          {
+            "id": "64d028e267c77c05",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,20 +151,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c7cca046a69b7c21",
+  "active": "4402694a62500985",
   "lastOpenFiles": [
-    "terminal-development.md",
-    "adding-new-post.md",
-    "Astro + Github Page setup blog cá nhân.md",
-    "tailwind-typography.md",
-    "dynamic-og-images.md",
-    "customizing-astropaper-theme-color-schemes.md",
-    "astro-paper-2.md",
-    "predefined-color-schemes.md",
-    "how-to-configure-astropaper-theme.md",
-    "how-to-add-an-estimated-reading-time.md",
-    "example-draft-post.md",
-    "astro-paper-3.md",
-    "portfolio-website-development.md"
+    "content/blog/Astro + Github Page setup blog cá nhân.md",
+    "assets/images/20231009014939.png",
+    "assets/images/image20231009014646.png",
+    "assets/images/20231009at014533.png",
+    "content/blog/adding-new-post.md",
+    "assets/images/image20231009013855.png",
+    "assets/images/Pasted image 20231009013717.png",
+    "content/blog/astro-paper-3.md",
+    "content/blog/astro-paper-2.md",
+    "assets/images/Pastedimage20231009005827.png",
+    "assets/images/Pasted image 20231009005827.png",
+    "assets/images/Pasted image 20231009005731.png",
+    "assets/images/Screenshot 2023-10-09 at 00.55.19.png",
+    "assets/images/Pasted image 20231009005416.png",
+    "content/blog/how-to-configure-astropaper-theme.md",
+    "content/blog/customizing-astropaper-theme-color-schemes.md",
+    "content/posts/2020-12-13-nhìn-lại-năm-2020-recap-2020.md",
+    "content/posts/2020-12-09-tôi-đã-mất-tiền-ngu-từ-aws-như-thế-nào.md",
+    "content/daily/09-10-2023.md",
+    "Untitled.canvas",
+    "content/blog/how-to-add-an-estimated-reading-time.md",
+    "content/blog/example-draft-post.md",
+    "content/blog/dynamic-og-images.md",
+    "content/daily/08-10-2023.md",
+    "content/daily",
+    "content/journal/8-10-01-2021-vi-vu-đà-lạt.md",
+    "content/notes/bắt-đầu-30daysproblemsolving.md",
+    "content/pages/about.md"
   ]
 }

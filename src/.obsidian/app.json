@@ -1,0 +1,8 @@
+{
+  "userIgnoreFilters": ["./**/*.{astro,html,js,mjs,cjs,jsx,svelte,ts,tsx,vue}"],
+  "attachmentFolderPath": "assets/images",
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "promptDelete": false,
+  "alwaysUpdateLinks": true
+}
