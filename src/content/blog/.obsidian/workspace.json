@@ -1,0 +1,181 @@
+{
+  "main": {
+    "id": "756f6dc7dba771c3",
+    "type": "split",
+    "children": [
+      {
+        "id": "872da302e6e10383",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c7cca046a69b7c21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Astro + Github Page setup blog cá nhân.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0a062b46843b5756",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "934f0c6b07a4ca87",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1400d258776b46f7",
+    "type": "split",
+    "children": [
+      {
+        "id": "0db4d2dab68a1d13",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2dba16197e862a9a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1b25a9dfb82ad5b3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "207af099f227f522",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "39ddc3abb0169cdc",
+    "type": "split",
+    "children": [
+      {
+        "id": "c90eda71efa462c5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "71dc4f68097f93de",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Astro + Github Page setup blog cá nhân.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0d436b6dde712267",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Astro + Github Page setup blog cá nhân.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1dc2b3c843b7153d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8e26759840906618",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Astro + Github Page setup blog cá nhân.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "c7cca046a69b7c21",
+  "lastOpenFiles": [
+    "terminal-development.md",
+    "adding-new-post.md",
+    "Astro + Github Page setup blog cá nhân.md",
+    "tailwind-typography.md",
+    "dynamic-og-images.md",
+    "customizing-astropaper-theme-color-schemes.md",
+    "astro-paper-2.md",
+    "predefined-color-schemes.md",
+    "how-to-configure-astropaper-theme.md",
+    "how-to-add-an-estimated-reading-time.md",
+    "example-draft-post.md",
+    "astro-paper-3.md",
+    "portfolio-website-development.md"
+  ]
+}
