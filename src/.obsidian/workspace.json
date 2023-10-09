@@ -11,9 +11,11 @@
             "id": "12840bf219b40575",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "assets/media/screenshot_2020-12-10-00-21-44-36.png"
+                "file": "content/notes/Ngày 2 30daysProblemSolving.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/media/screenshot_2020-12-10-00-21-44-36.png",
+                "file": "content/notes/Ngày 2 30daysProblemSolving.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "assets/media/screenshot_2020-12-10-00-21-44-36.png",
+                "file": "content/notes/Ngày 2 30daysProblemSolving.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "assets/media/screenshot_2020-12-10-00-21-44-36.png"
+                "file": "content/notes/Ngày 2 30daysProblemSolving.md"
               }
             }
           },
@@ -151,8 +153,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "12840bf219b40575",
+  "active": "4402694a62500985",
   "lastOpenFiles": [
+    "content/notes/Ngày 3 30daysProblemSolving.md",
+    "content/notes/Ngày đầu tiên 30daysProblemSolving.md",
+    "content/notes/thẩn-thơ-2021.md",
+    "content/notes/Ngày 2 30daysProblemSolving.md",
+    "content/daily/08-10-2023.md",
+    "content/daily/09-10-2023.md",
+    "content/blog/adding-new-post.md",
+    "content/DNS, Domain.md",
+    "content/daily/domain.md",
+    "content/journal/8-10-01-2021-vi-vu-đà-lạt.md",
+    "content/journal/16-17-01-2021-chạy-giải-hcmc-salonpas.md",
+    "content/journal/thứ-2-ngày-04-01-2021-ngày-đầu-tiên-đi-là-trong-năm.md",
+    "content/journal/thứ-4-ngày-06-01-2021-một-ngày-trước-khi-rời-sài-gòn.md",
+    "content/journal/thứ-3-ngày-05-01-2021.md",
+    "content/journal/liệu-mình-có-ổn-không.md",
+    "content/posts/2020-11-22-hello-the-world.md",
+    "content/posts/2021-10-02-mầy-đi-làm-được-bao-lâu-rồi.md",
+    "content/posts/2021-07-18-thẩn-thơ-2021.md",
+    "content/posts/2021-07-17-review-mùa-dịch-sau-2-tháng-mới-nhất-2021.md",
+    "content/posts/2020-12-13-nhìn-lại-năm-2020-recap-2020.md",
+    "content/posts/2020-12-09-tôi-đã-mất-tiền-ngu-từ-aws-như-thế-nào.md",
+    "media/screenshot_2020-12-10-00-21-44-36.png.md",
+    "media",
+    "content/blog/astro-paper-3.md",
+    "content/blog/Astro + Github Page setup blog cá nhân.md",
+    "content/notes/domain.md",
+    "assets/media/screenshot_2020-12-10-00-21-44-36.png",
     "assets/media/img_0289.jpg",
     "assets/media/image-4.jpg",
     "assets/media/image-2.jpg",
@@ -162,25 +191,8 @@
     "assets/media/aws-price.png",
     "assets/media/aa9501df489c885cce3f31b0fc6234ef.png",
     "assets/media/1_kuy_kkexzrspbuv9xfybga.png",
-    "assets/images/tranlehaiquan-github.png",
-    "assets/images/image20231009013855.png",
-    "content/daily/09-10-2023.md",
-    "content/blog/Astro + Github Page setup blog cá nhân.md",
-    "content/blog/adding-new-post.md",
-    "content/blog/astro-paper-3.md",
     "content/blog/astro-paper-2.md",
-    "content/blog/how-to-configure-astropaper-theme.md",
-    "content/blog/customizing-astropaper-theme-color-schemes.md",
-    "content/posts/2020-12-13-nhìn-lại-năm-2020-recap-2020.md",
-    "content/posts/2020-12-09-tôi-đã-mất-tiền-ngu-từ-aws-như-thế-nào.md",
     "Untitled.canvas",
-    "content/blog/how-to-add-an-estimated-reading-time.md",
-    "content/blog/example-draft-post.md",
-    "content/blog/dynamic-og-images.md",
-    "content/daily/08-10-2023.md",
-    "content/daily",
-    "content/journal/8-10-01-2021-vi-vu-đà-lạt.md",
-    "content/notes/bắt-đầu-30daysproblemsolving.md",
-    "content/pages/about.md"
+    "content/daily"
   ]
 }
