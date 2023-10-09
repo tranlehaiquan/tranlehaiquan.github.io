@@ -13,7 +13,7 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "assets/images/20231009014939.png"
+                "file": "assets/media/screenshot_2020-12-10-00-21-44-36.png"
               }
             }
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/images/20231009014939.png",
+                "file": "assets/media/screenshot_2020-12-10-00-21-44-36.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "assets/images/20231009014939.png",
+                "file": "assets/media/screenshot_2020-12-10-00-21-44-36.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "assets/images/20231009014939.png"
+                "file": "assets/media/screenshot_2020-12-10-00-21-44-36.png"
               }
             }
           },
@@ -151,27 +151,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4402694a62500985",
+  "active": "12840bf219b40575",
   "lastOpenFiles": [
-    "content/blog/Astro + Github Page setup blog cá nhân.md",
-    "assets/images/20231009014939.png",
-    "assets/images/image20231009014646.png",
-    "assets/images/20231009at014533.png",
-    "content/blog/adding-new-post.md",
+    "assets/media/img_0289.jpg",
+    "assets/media/image-4.jpg",
+    "assets/media/image-2.jpg",
+    "assets/media/image-1.jpg",
+    "assets/media/ft_19.02.08_algorithms_feature.jpg",
+    "assets/media/console.aws.amazon.com_billing_home_.png",
+    "assets/media/aws-price.png",
+    "assets/media/aa9501df489c885cce3f31b0fc6234ef.png",
+    "assets/media/1_kuy_kkexzrspbuv9xfybga.png",
+    "assets/images/tranlehaiquan-github.png",
     "assets/images/image20231009013855.png",
-    "assets/images/Pasted image 20231009013717.png",
+    "content/daily/09-10-2023.md",
+    "content/blog/Astro + Github Page setup blog cá nhân.md",
+    "content/blog/adding-new-post.md",
     "content/blog/astro-paper-3.md",
     "content/blog/astro-paper-2.md",
-    "assets/images/Pastedimage20231009005827.png",
-    "assets/images/Pasted image 20231009005827.png",
-    "assets/images/Pasted image 20231009005731.png",
-    "assets/images/Screenshot 2023-10-09 at 00.55.19.png",
-    "assets/images/Pasted image 20231009005416.png",
     "content/blog/how-to-configure-astropaper-theme.md",
     "content/blog/customizing-astropaper-theme-color-schemes.md",
     "content/posts/2020-12-13-nhìn-lại-năm-2020-recap-2020.md",
     "content/posts/2020-12-09-tôi-đã-mất-tiền-ngu-từ-aws-như-thế-nào.md",
-    "content/daily/09-10-2023.md",
     "Untitled.canvas",
     "content/blog/how-to-add-an-estimated-reading-time.md",
     "content/blog/example-draft-post.md",

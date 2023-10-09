@@ -12,16 +12,16 @@ Tui viết trang này để đôi khi bạn bè hoặc thầy cô có hỏi thì
 > Nếu ai đó hỏi tôi tại sao thức khuya?\
 > Có lẽ chỉ có vào buổi đêm mới có được âm thanh im ắng, tiếng gió, tiếng tắc kè : D
 
-![Ăn mọi thứ](/media/img20201128142401.jpg "Ăn mọi thứ")
+![Ăn mọi thứ](../assets/media/img20201128142401.jpg "Ăn mọi thứ")
 
 ### Về công việc:
 
 Hiện tại tui đang theo đuổi ngành lập trình website hoặc mọi người hay gọi tui là Front End (kỹ sư mặt tiền) và đang làm cho công ty outsourcing là Pyco. Công việc đầu tiên của tui bắt đầu từ năm 2017, sau khi tốt nghiệp xong do ham chơi nên vào Sài Gòn cho biết với anh với chị (thật sự là anh chị tui ở Sài Gòn lúc đó), cũng tò mò đi phỏng vấn thử mấy công ty kiếm việc thì may mắn nhân được công việc đầu tiên làm Front End cho một công ty về outsourcing Wordpress của Nhật Bản và quyết định gắn bó với Sài Gòn đến bây giờ 2020.
 
-![Code with coffee](/media/img20201122191730.jpg "Code with coffee")
+![Code with coffee](../assets/media/img20201122191730.jpg "Code with coffee")
 
 ### Tương lai:
 
 Như đã nói ở phần trên, bản thân tui không giỏi về việc đặt ra các dự định lâu dài nên về việc tương lai tui sẽ tiếp tục làm tốt công việc của bản thân từng ngày, học thêm tiếng Anh, đóng góp gì đó cho cộng đồng bằng việc viết blog về kinh nghiệm của bản thân. Gắn bó lâu dài với ai đó ;), chắc vậy 😅.
 
-![sun](/media/img_0289.jpg "sun")
+![sun](../assets/media/img_0289.jpg "sun")
