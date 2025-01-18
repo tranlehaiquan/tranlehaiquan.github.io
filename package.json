@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "nx exec -- pnpm run _build ",
+    "build": "pnpm run _build ",
     "preview": "astro preview",
     "sync": "astro sync",
     "astro": "astro",
@@ -13,46 +13,44 @@
     "format": "prettier --plugin-search-dir=. --write .",
     "cz": "cz",
     "prepare": "husky install",
-    "lint": "nx exec -- eslint .",
-    "_build": "astro build && jampack ./dist"
+    "_build": "astro build && jampack ./dist",
+    "check-types": "tsc --noEmit"
   },
   "dependencies": {
-    "@astrojs/check": "^0.2.0",
+    "@astrojs/check": "^0.2.1",
     "@astrojs/rss": "^3.0.0",
-    "@resvg/resvg-js": "^2.4.1",
-    "astro": "^3.1.3",
+    "@resvg/resvg-js": "^2.6.2",
+    "astro": "^3.6.5",
     "fuse.js": "^6.6.2",
     "github-slugger": "^2.0.0",
-    "nx": "^16.10.0",
     "remark-collapse": "^0.1.2",
     "remark-toc": "^9.0.0",
-    "satori": "^0.10.8",
-    "tailwindcss": "^3.3.3",
-    "typescript": "^5.2.2"
+    "satori": "^0.10.14",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3"
   },
   "devDependencies": {
-    "@astrojs/react": "^3.0.3",
-    "@astrojs/sitemap": "^3.0.0",
-    "@astrojs/tailwind": "^5.0.0",
+    "@astrojs/react": "^3.6.3",
+    "@astrojs/sitemap": "^3.2.1",
+    "@astrojs/tailwind": "^5.1.4",
     "@divriots/jampack": "^0.20.2",
-    "@tailwindcss/typography": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.16",
     "@types/github-slugger": "^1.3.0",
-    "@types/react": "^18.2.22",
-    "@typescript-eslint/parser": "^6.7.3",
+    "@types/react": "^18.3.18",
+    "@typescript-eslint/parser": "^6.21.0",
     "astro-eslint-parser": "^0.15.0",
-    "commitizen": "^4.3.0",
+    "commitizen": "^4.3.1",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^8.50.0",
-    "eslint-plugin-astro": "^0.29.0",
+    "eslint": "^8.57.1",
+    "eslint-plugin-astro": "^0.29.1",
     "husky": "^8.0.3",
     "lint-staged": "^14.0.1",
-    "prettier": "^3.0.3",
-    "prettier-plugin-astro": "^0.12.0",
-    "prettier-plugin-tailwindcss": "^0.5.4",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "nx": "16.10.0",
-    "nx-cloud": "latest"
+    "prettier": "^3.4.2",
+    "prettier-plugin-astro": "^0.12.3",
+    "prettier-plugin-tailwindcss": "^0.5.14",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "turbo": "^2.3.3"
   },
   "config": {
     "commitizen": {
@@ -64,13 +62,5 @@
       "prettier --plugin-search-dir=. --write"
     ]
   },
-  "nx": {
-    "targets": {
-      "build": {
-        "outputs": [
-          "{projectRoot}/dist"
-        ]
-      }
-    }
-  }
+  "packageManager": "pnpm@9.15.1"
 }
