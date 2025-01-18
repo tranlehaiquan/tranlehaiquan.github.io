@@ -25,13 +25,13 @@ Mình sẽ dùng Astro template [astro-paper](https://github.com/satnaing/astro-
 ![use-template](../../assets/images/astro-use-template.png)
 
 Tên repo mới phải dùng với định dạng <github_account>.github.io (vd: tranlehaiquan.github.io).
-![](../../assets/images/image20231009013855.png)
+![image 1](../../assets/images/image20231009013855.png)
 
 ## Bật Github Page và dùng Github Actions để deploy
 
 Chúng ta sẽ host blog dùng Github Page và thông qua Github Action. Đầu tiên phải bật phần github page ở repo -> Setting -> Pages -> Build and deployment -> Source chọn Github Actions.
 
-![](../../assets/images/20231009014939.png)
+![image 2](../../assets/images/20231009014939.png)
 
 Sau đó tạo 1 file Actions:
 
@@ -111,8 +111,8 @@ Giải thích về Github Action bao gồm 2 jobs:
 
 Sau khi lưu xong file, vào phần Actions -> Deploy Astro site to Pages -> Run workflow
 
-![](../../assets/images/20231009at014533.png)
+![image 3](../../assets/images/20231009at014533.png)
 
 ## Cuối cùng
 
-![](../../assets/images/image20231009014646.png)
+![image 4](../../assets/images/image20231009014646.png)
